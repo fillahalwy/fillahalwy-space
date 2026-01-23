@@ -50,6 +50,27 @@ const experiences = [
     },
 ];
 
+const blogs = [
+    {
+        title: "Pertama kali ...",
+        date: "2026-01-23",
+        tags: "artikel",
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus minus dolor. Dignissimos, eligendi sit. Illum iste ipsa ad cupiditate aspernatur ratione a voluptatum quas voluptatibus accusamus beatae, fugiat nisi dicta optio voluptas adipisci, ipsam accusantium laudantium blanditiis numquam, eveniet quod unde corporis. Quas obcaecati ex aperiam corporis placeat doloribus cum! Dolore amet maxime voluptatem quos, asperiores ratione deleniti possimus eveniet earum recusandae culpa numquam maiores modi pariatur eos quis sed atque reprehenderit totam nisi aut fuga cupiditate id fugiat. Commodi debitis officiis sequi rerum cumque beatae quae culpa possimus? Vero molestias, eos hic modi facere error recusandae eum dicta.",
+    },
+    {
+        title: "Kedua kali ...",
+        date: "2026-01-23",
+        tags: "tips",
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus minus dolor. Dignissimos, eligendi sit. Illum iste ipsa ad cupiditate aspernatur ratione a voluptatum quas voluptatibus accusamus beatae, fugiat nisi dicta optio voluptas adipisci, ipsam accusantium laudantium blanditiis numquam, eveniet quod unde corporis. Quas obcaecati ex aperiam corporis placeat doloribus cum! Dolore amet maxime voluptatem quos, asperiores ratione deleniti possimus eveniet earum recusandae culpa numquam maiores modi pariatur eos quis sed atque reprehenderit totam nisi aut fuga cupiditate id fugiat. Commodi debitis officiis sequi rerum cumque beatae quae culpa possimus? Vero molestias, eos hic modi facere error recusandae eum dicta.",
+    },
+    {
+        title: "Ketiga kali ...",
+        date: "2026-01-23",
+        tags: "tips",
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus minus dolor. Dignissimos, eligendi sit. Illum iste ipsa ad cupiditate aspernatur ratione a voluptatum quas voluptatibus accusamus beatae, fugiat nisi dicta optio voluptas adipisci, ipsam accusantium laudantium blanditiis numquam, eveniet quod unde corporis. Quas obcaecati ex aperiam corporis placeat doloribus cum! Dolore amet maxime voluptatem quos, asperiores ratione deleniti possimus eveniet earum recusandae culpa numquam maiores modi pariatur eos quis sed atque reprehenderit totam nisi aut fuga cupiditate id fugiat. Commodi debitis officiis sequi rerum cumque beatae quae culpa possimus? Vero molestias, eos hic modi facere error recusandae eum dicta.",
+    },
+]
+
 function getAllEducations(){
     return educations;
 }
@@ -68,9 +89,14 @@ function getOtherExperience(){
     return otherExperience;
 }
 
+function getBlogs(){
+    return blogs;
+}
+
 export { 
     getAllEducations,
     getAllExperience,
     getWorkExperience,
     getOtherExperience,
+    getBlogs,
 };
