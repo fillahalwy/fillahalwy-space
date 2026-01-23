@@ -5,7 +5,7 @@ function About(){
                 <img 
                     src="/my-icon.svg" 
                     alt="Foto gue" 
-                    className="rounded-full w-32 h-32 md:w-full md:h-auto object-cover border-4 border-gray-200"
+                    className="rounded-full w-32 h-32 md:w-full md:h-auto object-cover border-4 border-gray-500"
                 />
             </div>
             <div className="w-full">

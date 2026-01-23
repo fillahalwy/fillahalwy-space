@@ -11,7 +11,7 @@ function Navigation(){
                     </div>
                     <div className="hidden md:flex items-center space-x-8" id="navbar-default">
                         <Link to='/' className="font-medium text-gray-600 hover:text-gray-700 hover:bg-gray-100 p-2 my-1 rounded-md transition-color text-lg">Home</Link>
-                        <Link to='/profile' className="font-medium text-gray-600 hover:text-gray-700 hover:bg-gray-100 p-2 my-1 rounded-md transition-color text-lg">Profile</Link>
+                        <Link to='/profile' className="font-medium text-gray-600 hover:text-gray-700 hover:bg-gray-100 p-2 my-1 rounded-md transition-color text-lg">Projects</Link>
                         <Link to='/blogs' className="font-medium text-gray-600 hover:text-gray-700 hover:bg-gray-100 p-2 my-1 rounded-md transition-color text-lg">Blogs</Link>
                     </div>
                 </div>
