@@ -50,6 +50,33 @@ const experiences = [
     },
 ];
 
+const projects = [
+  {
+    id: "p1",
+    title: "PROTEK: Predictive Maintenance Copilot",
+    description: "Aplikasi pemantauan peralatan industri menggunakan Next.js dan Prisma untuk prediksi perawatan mesin.",
+    image: "/projects/protek.png", // Taruh foto di folder public/projects/
+    tags: ["Next.js", "Prisma", "AI"],
+    link: "#"
+  },
+  {
+    id: "p2",
+    title: "Sistem Informasi Rental PlayStation",
+    description: "Sistem manajemen inventaris dan penyewaan PlayStation berbasis web untuk efisiensi operasional.",
+    image: "/projects/ps-rental.png",
+    tags: ["Laravel", "Tailwind CSS"],
+    link: "#"
+  },
+  {
+    id: "p3",
+    title: "Restaurant Order Management",
+    description: "Sederhana sistem manajemen pesanan restoran yang dibangun menggunakan JavaScript murni.",
+    image: "/projects/restaurant.png",
+    tags: ["JavaScript", "CSS"],
+    link: "#"
+  }
+];
+
 const blogs = [
     {
         id: "b1",
@@ -92,6 +119,10 @@ function getOtherExperience(){
     return otherExperience;
 }
 
+function getProjects(){
+    return projects;
+}
+
 function getBlogs(){
     return blogs;
 }
@@ -105,6 +136,7 @@ export {
     getAllExperience,
     getWorkExperience,
     getOtherExperience,
+    getProjects,
     getBlogs,
     getBlogsById,
 };

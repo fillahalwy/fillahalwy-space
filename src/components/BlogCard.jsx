@@ -10,7 +10,7 @@ function BlogCard({id, title, date, tags, content}){
         <div className="mt-5 pt-5 border-t border-gray-50 flex justify-between items-center">
           <span className="text-xs text-gray-500">Published on { date }</span>
           <Link to={`/blogs/${id}`} className="flex items-center text-blue-600 font-bold text-md hover:underline" >
-            Read More
+            Read More &#8594;
           </Link>
         </div>
       </div>
